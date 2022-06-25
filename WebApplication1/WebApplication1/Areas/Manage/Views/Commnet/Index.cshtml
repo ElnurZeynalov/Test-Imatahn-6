@@ -1,0 +1,15 @@
+﻿@model List<ClientComment>
+@foreach (var item in Model)
+{
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="/assets/images/@item.PhotoUrl" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">@item.FullName</h5>
+    <span>@item.Role</span>
+    <p class="card-text">@item.Comment</p>
+    <a class="btn btn-primary" asp-action="Edit" asp-route-Id="@item.Id">Edit</a>
+    <a class="btn btn-danger" asp-action="Delete" asp-route-Id="@item.Id">Delete</a>
+  </div>
+</div>
+}
+

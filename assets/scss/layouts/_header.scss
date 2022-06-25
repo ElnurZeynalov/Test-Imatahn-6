@@ -1,0 +1,37 @@
+header {
+    position: absolute;
+    width: 100%;
+    .nav-bar {
+        ul {
+            margin-left: 10px;
+            li {
+                padding: 0 20px;
+                a {
+                    font-weight: 500;
+                    font-size: 17px;
+                    color: white;
+                }
+            }
+        }
+    }
+    .login {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            font-weight: bold;
+            padding: 7px 12px;
+            color: white;
+        }
+        button {
+            margin-left: 10px;
+            border: 0;
+            background-color: transparent;
+            i {
+                font-size: 24px;
+                color: white;
+            }
+        }
+    }
+}

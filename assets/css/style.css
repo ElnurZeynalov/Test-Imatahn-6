@@ -1,0 +1,346 @@
+header {
+  position: absolute;
+  width: 100%;
+}
+
+header .nav-bar ul {
+  margin-left: 10px;
+}
+
+header .nav-bar ul li {
+  padding: 0 20px;
+}
+
+header .nav-bar ul li a {
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+}
+
+header .login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .login a {
+  font-weight: bold;
+  padding: 7px 12px;
+  color: white;
+}
+
+header .login button {
+  margin-left: 10px;
+  border: 0;
+  background-color: transparent;
+}
+
+header .login button i {
+  font-size: 24px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #0c0c49;
+}
+
+img {
+  width: 100%;
+}
+
+.section-head {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  color: white;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 18px;
+  color: #b1b1b1;
+  font-weight: 500;
+}
+
+main #intro {
+  padding: 170px 0;
+  background-image: url(/assets/images/intro.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+main #intro .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main #intro .intro-content {
+  text-align: center;
+}
+
+main #intro .intro-content .intro-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #eeeeee;
+}
+
+main #intro .intro-content .intro-btns {
+  margin-top: 50px;
+}
+
+main #intro .intro-content .intro-btns a {
+  font-size: 18px;
+  padding: 15px 25px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+}
+
+main #intro .intro-content .intro-btns .intro-start {
+  background-color: #4d4dfc;
+  margin-right: 10px;
+}
+
+main #intro .intro-content .intro-btns .intro-learn {
+  background-color: rgba(73, 73, 73, 0.651);
+}
+
+main #features {
+  padding: 60px 0;
+}
+
+main #features .features-card {
+  color: white;
+  padding: 10px;
+}
+
+main #features .features-card .features-icon {
+  background-color: #12128b;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+main #features .features-card .features-icon i {
+  font-size: 48px;
+  padding: 10px;
+  color: #5151b4;
+}
+
+main #features .features-card .features-title {
+  font-size: 26px;
+  padding: 10px 0;
+  color: white;
+  font-weight: 500;
+}
+
+main #features .features-card .features-text {
+  color: #b9b9b9;
+  font-weight: 500;
+}
+
+main #video {
+  padding: 120px 0;
+  background-image: url(/assets/images/videobg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+main #video .video-platform {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 400px;
+}
+
+main #about {
+  padding: 120px 0;
+}
+
+main #about .about-part-1 {
+  border-bottom: 1px solid #8d8d8d;
+  padding: 60px 0;
+}
+
+main #about .about-part-1 .about-card {
+  width: 90%;
+  margin-right: auto;
+}
+
+main #about .about-part-1 .about-card .about-advantages {
+  font-size: 20px;
+  color: #b5b5c0;
+}
+
+main #about .about-part-1 .about-card .about-advantages span {
+  background-color: #18187a;
+  padding: 3px 7px;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+main #about .about-part-1 .about-image {
+  float: right;
+}
+
+main #about .about-part-2 {
+  padding-top: 60px;
+}
+
+main #about .about-part-2 .about-content {
+  width: 70%;
+  margin-right: auto;
+  color: white;
+}
+
+main #about .about-part-2 .about-content p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #a0a0a0;
+  font-weight: 500;
+}
+
+main #client-comment {
+  padding: 120px 0;
+}
+
+main #client-comment .comment-card {
+  background-color: rgba(104, 104, 104, 0.178);
+  border-radius: 10px;
+  padding: 0 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+main #client-comment .comment-card .commnet-star {
+  color: orange;
+  padding: 20px 0;
+  font-size: 22px;
+}
+
+main #client-comment .comment-card .comment-text {
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+main #client-comment .comment-card .user .user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+main #client-comment .comment-card .user .user-about span {
+  color: #a5a5a5;
+}
+
+main #pricing {
+  padding: 120px 0;
+}
+
+main #pricing .pricing-card {
+  background-color: rgba(104, 104, 104, 0.178);
+  color: white;
+  border-radius: 10px;
+  padding: 0 25px;
+  margin-top: 20px;
+}
+
+main #pricing .pricing-card .pricing-card-head {
+  position: relative;
+  padding-top: 20px;
+}
+
+main #pricing .pricing-card .pricing-card-head p {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+main #pricing .pricing-card .pricing-card-head p small {
+  color: #b8b8b8;
+}
+
+main #pricing .pricing-card .pricing-card-head span {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+main #pricing .pricing-card .pricing-card-text {
+  font-size: 18px;
+  color: #a5a5a5;
+}
+
+main #pricing .pricing-card .pricing-card-btn {
+  border-bottom: 1px solid lightgray;
+}
+
+main #pricing .pricing-card .pricing-card-btn a {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main #pricing .pricing-card .pricing-card-advantages p {
+  color: #c2c2c2;
+  margin-bottom: 5px;
+}
+
+main #pricing .pricing-card .pricing-card-advantages p span {
+  background-color: #272770;
+  padding: 2px 4px;
+  border-radius: 50%;
+  font-size: 12px;
+  margin-right: 14px;
+}
+
+main #contact {
+  padding: 120px 0;
+}
+
+main #contact .contact-form {
+  background-color: rgba(104, 104, 104, 0.178);
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+main #contact .contact-form .form-head p {
+  color: #707070;
+  font-weight: 500;
+}
+
+main #contact .contact-form input {
+  background-color: rgba(85, 85, 85, 0.39);
+  border: 0;
+}
+
+main #contact .contact-form textarea {
+  background-color: rgba(85, 85, 85, 0.39);
+  border: 0;
+}
+
+main #contact .contact-form form {
+  margin: 30px 0;
+}
+
+main #contact .contact-form .form-footer {
+  color: #707070;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
